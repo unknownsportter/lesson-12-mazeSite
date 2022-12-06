@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+}
+
+/* logo serch and login/sing in */
+
+.head_bar {
+    background-color: #3f3f3f;
+    display: flex;
+    width: 100%;
+    height: 5.5rem;
+}
+
+.tvmaze_logo {
+    height: 60%;
+    margin: 1.2rem 0 0 20rem;
+}
+
+.serch_input {
+    height: 2.4rem;
+    width: 31rem;
+    margin: 1.6rem 0 0 2.2rem;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+
+.serch_btn {
+    background-color: #388f79;
+    width: 7rem;
+    height: 2.4rem;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    margin: 1.6rem 0 0 0;
+}
+.serch_btn:hover {
+    background-color: #4caa92;
+}
+
+/* logo serch and login/sing in */
+
+.log_and_reg {
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
